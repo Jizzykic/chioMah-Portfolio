@@ -1,0 +1,124 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* background-color: #09111a; */
+}
+
+
+/* Header styles */
+
+header {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    /* box-shadow: -10px 0 20px -10px rgba(7, 4, 4, 0.1); */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li,
+nav ul li a {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+
+
+/* Gallery styles */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+}
+
+#hobbies {
+    background-color: #B5B5B5;
+    border-radius: 5px;
+}
+
+.contact-option .icon {
+    align-items: center;
+    background: rgba(220, 150, 90, .1);
+    border-radius: 50%;
+    color: #333;
+    display: inline-flex;
+    font-size: 24px;
+    height: 60px;
+    justify-content: center;
+    width: 60px;
+}
+
+.btn-primary {
+    background-color: #333 !important;
+    border-style: none !important;
+}
+
+.bg-secondary-2 {
+    background-color: #B5B5B5 !important;
+}
+
+
+/* .btn-primary:focus {
+    outline: none !important;
+} */
+
+
+/* #contact {
+    background-color: #3b4acf;
+} */
+
+
+/* Footer styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    /* text-align: center; */
+    /* padding: 10px; */
+}
+
+.btn-socials {
+    background-color: #F1F1F3 !important;
+}
+
+.home-about p {
+    /* color: #59595A !important; */
+    font-size: 16px !important;
+}
+
+.address-footer p {
+    /* color: #262626 !important; */
+    font-size: 16px !important;
+}
+
+.copywrite p {
+    /* color: #656567 !important; */
+    font-size: 14px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 675px) {
+    /* header {
+        width: 105%;
+        margin-left: -7px;
+    } */
+}
